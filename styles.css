@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+body{
+    width: 100vw;
+    font-family: 'Kanit';
+}
+
+/* Nav bar CSS  */
+
+
+.top-headline{
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+.nav-bar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+    padding-left: 2rem;
+    gap: 2rem;
+    align-items: center;
+}
+.links>img{
+    width: 40px;
+    height: 40px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+}
+.search-div{
+    display: flex;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgb(189, 189, 189);
+    gap: 4px;
+}
+.search-div>p{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+/* blue container CSS  */
+
+.blue-container{
+    background-color: #414584;
+    color: white;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mini-links{
+    overflow: hidden;
+}
+.mini-links>a{
+    color: white;
+    padding: 4px;
+}
+#mini-para{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+/* Virat Hero Section */
+
+.hero-section{
+    position: relative;
+    width: 100%;
+}
+.hero-inside{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 5%;
+}
+.hero-inside>h1{
+    margin-bottom: -0.5rem;
+    padding: 0;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.hero-inside>h3{
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+.hero-inside>button{
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-right: 1rem;
+}
+
+/* Sub hero section */
+
+.sub-hero{
+    position: relative;
+    color: white;
+}
+.subhero-text{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 30%;
+}
+.sub-hero h1{
+    font-size: 3rem;
+    margin-bottom: -0.7rem;
+}
+.sub-hero button{
+    padding: 10px 20px;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+}
+
+/* video section */
+
+.hero-section{
+    display: flex;
+    background-color: #DAD2CC;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(50px);
+    margin-top: 2.5rem;
+}
+.left-side h2{
+    font-size: 2.5rem;
+    margin-bottom: -1rem;
+}
+.left-side p{
+    font-size: 1.5rem;
+}
+.button-group{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.button-group button{
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-right: 0.5rem;
+}
+.right-side{
+    width: 50%;
+}
+.right-side img{
+    width: 100%;
+}
+
+/* palermo-playbook css*/
+
+.palermo-playbook{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0;
+}
+.palermo-playbook h1{
+    font-size: 2.5rem;
+}
+.palermo-playbook p{
+    color: rgb(170, 170, 170);
+}
+
+/*CARDS CSS*/
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 3rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card img{
+    width: 350px;
+    height: 455px;
+}
+.card p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+.card button{
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+/* romeo section */
+
+.romeo{
+    position: relative;
+    width: 100%;
+    margin: 1rem 0;
+}
+.romeo img{
+    width: 100%;
+}
+.romeo-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+}
+.romeo-text h2{
+    font-size: 2.5rem;
+    margin-bottom: -0.75rem;
+}
+.romeo-text p{
+    font-size: 1.5rem;
+}
+.romeo-text button{
+    background-color: white;
+    color: black;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+/* bike section CSS*/
+
+.bike{
+    position: relative;
+    width: 100%;
+    margin: 1rem 0;
+}
+.bike img{
+    width: 100%;
+}
+.bike-text{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    color: white;
+}
+.bike-text h2{
+    font-size: 2.5rem;
+    margin-bottom: -0.75rem;
+}
+.bike-text p{
+    font-size: 1.5rem;
+}
+.bike-text button{
+    background-color: white;
+    color: black;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+
+/* CARDS 2 CSS*/
+
+.cards2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card2 img{
+    width: 360px;
+}
+.card2 p{
+    margin: 1rem 0;
+    font-size: 1.25rem;
+    transform: translateY(-80px);
+    color: white;
+    font-weight: 700;
+}
+.highlight{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+.mmq-text{
+    position: absolute;
+    top: 30%;
+    left: 43%;
+    color: white;
+    text-align: center;
+}
+.mmq-text h2{
+    font-size: 2.5rem;
+    margin-bottom: -0.75rem;
+}
+.mmq-text p{
+    font-size: 1.5rem;
+}
+.mmq-text button{
+    background-color: white;
+    color: black;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.recommended{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+/* Shoes cards CSS */
+.shoes-cards{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.shoe{
+    position: relative;
+    width: 330px;
+}
+.shoe img{
+    width: 100%;
+}
+#discount{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 4px;
+    background-color: red;
+}
+.shoe-details{
+    display: flex;
+    justify-content: space-between;
+}
+#less-price{
+    color: rgb(167, 0, 0);
+}
+#original-price{
+    text-decoration: line-through;
+}
+footer{
+    margin-top: 5rem;
+    display: flex;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2rem 0;
+    
+}
+footer a{
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+}
+.support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.small-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons h2{
+    margin-bottom: 2rem;
+}
+.small-icons img{
+    height: 20px;
+    width: 20px;
+}
+.icons2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-down{
+    background-color: rgb(19, 19, 19);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.payment-methods{
+    display: flex;
+}
+.payment-methods img{
+    width: 50px;
+}
+.flag{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid white;
+    padding: 4px 18px;
+    height: 60px;
+}
+.flag img{
+    width: 35px;
+}
+.copyright{
+    color: white;
+    padding: 0 8px;
+    font-size: 12px;
+}
